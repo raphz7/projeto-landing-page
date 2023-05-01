@@ -1,0 +1,389 @@
+:root {
+  --primary: #6DDACD;
+  --secondary: #285059;
+  --text-color: #FFF;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* formulario grupo */
+
+#descricao-casa {
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("./img/f4life.png");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+#disclaimer h2,
+#disclaimer .universidades-casa {
+  color: var(--primary);
+}
+
+#disclaimer h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#disclaimer .sua-casa {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#disclaimer p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+#disclaimer .universidade-casa {
+  font-weight: bold;
+}
+
+#formulario-informacoes {
+  background-color: var(--secondary);
+  padding: 2em;
+  max-width: 22%;
+}
+
+#formulario-informacoes {
+  font-size: 1.5em;
+  color: var(--text-secondary);
+  margin-bottom: 1em;
+}
+
+.formulario-grupo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+
+.formulario-grupo {
+  color: var(--text-tertiary);
+  margin-bottom: .3em;
+  font-weight: bold;
+}
+
+.formulario-grupo input,
+.formulario-grupo select {
+  padding: 6px, 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.botao {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.botao:hover {
+  opacity: 1;
+}
+
+/* detalhes sobre a moradia compartilhada*/
+
+#geral-moradia h2 {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+
+.conteudos-moradia {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.conteudo-moradia {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-tertiary);
+}
+
+.conteudo-moradia .conteudo-moradia-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#conteudo-moradia-1 {
+  background-image: url("../img/hrz-3.jpg");
+}
+
+#conteudo-moradia-2 {
+  background-image: url("../img/sqr-2.jpg");
+}
+
+#conteudo-moradia-3 {
+  background-image: url("../img/sqr-3.jpg");
+}
+
+/* detalhes sobre kitnets*/
+
+#geral-kitnets h2 {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+
+.conteudos-kitnet {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.conteudo-kitnet {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-tertiary);
+}
+
+.conteudo-kitnet .conteudo-kitnet-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#conteudo-kitnet-1 {
+  background-image: url("../img/hrz-1.jpg");
+}
+
+#conteudo-kitnet-2 {
+  background-image: url("../img/hrz-2.jpg");
+}
+
+#conteudo-kitnet-3 {
+  background-image: url("../img/hrz-6.jpg");
+}
+
+/* detalhes sobre as moradias do cliente */
+
+#detalhes {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detalhe {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.detalhe img {
+  width: 50%;
+}
+
+.detalhe h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#detalhe-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.descricao-detalhe {
+  width: 100%;
+  padding-left: 2em;
+}
+
+#detalhe-3 .descricao-detalhe {
+  justify-self: flex-start;
+}
+
+.descricao-detalhe ul {
+  list-style-position: inside;
+}
+
+.descricao-detalhe ul li {
+  margin-bottom: 0.4em;
+}
+
+.descricao-detalhe ul li:last-child {
+  font-weight: bold;
+}
+
+/* ultima sessão chamando para a ação*/
+
+#chamada-pra-acao {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/hrz-6.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-color);
+}
+
+#chamada-pra-acao h3 {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#chamada-pra-acao .botao {
+  width: 30%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+/* footer */
+
+#footer {
+  background:url("./img/f4life.png");
+  text-align: center;
+  color: var(--secondary);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+#footer p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+#footer span {
+  font-weight: bold;
+}
+
+/* responsibilidade */
+
+@media (max-width: 450px) {
+
+  /* descrição casa*/
+  #descricao-casa {
+    flex-direction: column;
+    height: auto;
+  }
+
+
+
+#disclaimer {
+  padding: 2em;
+}
+
+#disclaimer h2 {
+  margin-bottom: 0.5em;
+}
+
+#formulario-informacoes {
+  max-width: 70%;
+  margin-bottom: 2em;
+}
+
+/* sessao moradia compartilhada*/
+
+.conteudos-moradia {
+flex-direction: column;
+align-items: center;
+width: auto;
+padding: 2em;
+}
+
+.conteudo-moradia{
+  max-width: 100%;
+  margin-bottom: 2em;
+}
+
+/* sessao kitnets*/
+
+.conteudos-kitnet {
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  padding: 2em;
+  }
+  
+  .conteudo-kitnet {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+
+  /* sessao dos detalhes */
+
+  .detalhe {
+    flex-direction: column;
+    margin-bottom: .5em;
+    gap: 0;
+  }
+
+  .detalhe img {
+    width: 100%;
+    margin: 2em 0;
+  }
+
+  #detalhe-1 img {
+    display: none;
+  }
+
+  .descricao-detalhe {
+    padding: 0;
+  }
+
+  #detalhe-3 img {
+    order: 2;
+  }
+
+  #detalhe-3 .detalhe-descricao {
+    order: 1;
+  }
+
+  /* sessao chamada pra ação*/
+
+  #chamada-pra-acao .botao{
+    width: 80%;
+  }
+}
